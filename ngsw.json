@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1635283308999,
+  "index": "https://mary1247.github.io/basepwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://mary1247.github.io/basepwa/favicon.ico",
+        "https://mary1247.github.io/basepwa/index.html",
+        "https://mary1247.github.io/basepwa/main.be12b0da7ba4fde8ece2.js",
+        "https://mary1247.github.io/basepwa/manifest.webmanifest",
+        "https://mary1247.github.io/basepwa/polyfills.77a1993727a31fa030dd.js",
+        "https://mary1247.github.io/basepwa/runtime.18821b64a88c577ecb6a.js",
+        "https://mary1247.github.io/basepwa/styles.11cf6b3a7e166a1bde8d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://mary1247.github.io/basepwa/assets/icons/icon-128x128.png",
+        "https://mary1247.github.io/basepwa/assets/icons/icon-144x144.png",
+        "https://mary1247.github.io/basepwa/assets/icons/icon-152x152.png",
+        "https://mary1247.github.io/basepwa/assets/icons/icon-192x192.png",
+        "https://mary1247.github.io/basepwa/assets/icons/icon-384x384.png",
+        "https://mary1247.github.io/basepwa/assets/icons/icon-512x512.png",
+        "https://mary1247.github.io/basepwa/assets/icons/icon-72x72.png",
+        "https://mary1247.github.io/basepwa/assets/icons/icon-96x96.png",
+        "https://mary1247.github.io/basepwa/assets/shipping.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://mary1247.github.io/basepwa/assets/icons/icon-128x128.png": "8fab73fa50d1124c7e4f32e7eaaaed128339dee3",
+    "https://mary1247.github.io/basepwa/assets/icons/icon-144x144.png": "a356671a1217fc96c290a7eb3fdea71fb65a5fdb",
+    "https://mary1247.github.io/basepwa/assets/icons/icon-152x152.png": "06f0ff47213a5e8b4abbab2f24b46f9be9888bc0",
+    "https://mary1247.github.io/basepwa/assets/icons/icon-192x192.png": "dd9a019ee76eb3d0f68eab1a0e6779269f39108f",
+    "https://mary1247.github.io/basepwa/assets/icons/icon-384x384.png": "28d2a75d5ed26245d3b5594777041ebf41cd4101",
+    "https://mary1247.github.io/basepwa/assets/icons/icon-512x512.png": "57404db94a45da4a633892220f7829b87326c09e",
+    "https://mary1247.github.io/basepwa/assets/icons/icon-72x72.png": "13640fc302361ce576a246eee5e79f56a2c1edb6",
+    "https://mary1247.github.io/basepwa/assets/icons/icon-96x96.png": "3a29305e55d3abac285faa5a61043543b041ad6a",
+    "https://mary1247.github.io/basepwa/assets/shipping.json": "9f9e342c76babd68907ccdb6c8d75b761fac74e1",
+    "https://mary1247.github.io/basepwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://mary1247.github.io/basepwa/index.html": "0b98262cc24f9768289ebb8952fb7922aae4d49f",
+    "https://mary1247.github.io/basepwa/main.be12b0da7ba4fde8ece2.js": "0776ae00ed789373c30d64c7e8891c9c7286c663",
+    "https://mary1247.github.io/basepwa/manifest.webmanifest": "747a7203f31ce10b5a43e5c7c5b942d6508c74d6",
+    "https://mary1247.github.io/basepwa/polyfills.77a1993727a31fa030dd.js": "4cf661614a4ec3db0f1098456e80b8d00128d1d0",
+    "https://mary1247.github.io/basepwa/runtime.18821b64a88c577ecb6a.js": "7e55b36d225118431e7c39e9bc0c06b3379216b2",
+    "https://mary1247.github.io/basepwa/styles.11cf6b3a7e166a1bde8d.css": "afdfbd6fa0a454418a996df3f3117579c16d465e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
